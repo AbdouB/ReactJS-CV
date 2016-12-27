@@ -5,7 +5,7 @@ module.exports = {
   entry: path.join(__dirname, 'src', 'app-client.js'),
   output: {
     path: path.join(__dirname, 'src', 'static', 'js'),
-    filename: 'client.min.js'
+    filename: 'client.js'
   },
   module: {
     loaders: [{

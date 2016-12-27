@@ -1,6 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Profil from './components/Profil';
+import Formation from './components/Formation';
 
 window.onload = () => {
-    ReactDOM.render(<h1>Here we go ! :D</h1>, document.getElementById('app'));
+    ReactDOM.render
+    (
+        <div className="container">
+            <Profil /> 
+            <Formation />        
+        </div>              
+        , document.getElementById('app')
+    );
 }
