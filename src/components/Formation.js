@@ -21,9 +21,9 @@ export default class Formation extends React.Component{
         console.log(annee);
         return(
             <div className="formation w3-panel w3-card-4">
-                <h4>Formations: </h4>
+                <h4><span className="glyphicon glyphicon-education" aria-hidden="true"></span>Formations: </h4>
                 <div className="row">
-                    <div className="col-md-3 col-sm-6">
+                    <div className="col-md-2 col-sm-4">
                         <select className="form-control" onChange={this.changeFormation.bind(this)}>
                             <option value="_17">2016/2017</option>
                             <option value="_16">2014/2016</option>
@@ -31,7 +31,7 @@ export default class Formation extends React.Component{
                             <option value="_13">2012/2013</option>
                         </select>              
                     </div>
-                    <div className="col-md-9 col-sm-6 text-center"><p>{formations[annee]}</p></div> 
+                    <div className="col-md-10 col-sm-8 text-center">{formations[annee]}</div> 
                 </div>
             </div>
              
