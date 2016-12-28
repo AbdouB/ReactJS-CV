@@ -22,7 +22,7 @@ export default class Experience extends React.Component{
         console.log(experiences[id].titre);
         return(
             <div className="experience w3-panel w3-card-4">
-                <h4><span className="glyphicon glyphicon-briefcase" aria-hidden="true"></span>Experiences: </h4>
+                <h3><span className="glyphicon glyphicon-briefcase" aria-hidden="true"></span>Experiences: </h3>
                 <div className="row">
                     <div className="col-md-2 col-sm-4">
                         <select className="form-control" onChange={this.changeExperience.bind(this)}>
