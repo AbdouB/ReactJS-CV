@@ -4,7 +4,7 @@
   "description": "Mon cv utilisant ReactJS",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --watch --progress",
+    "dev": "webpack -p --watch --progress",
     "server": "http-server src/static",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
