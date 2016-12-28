@@ -11,7 +11,7 @@ export default class Profil extends React.Component{
                     </div>  
                     <div className="col-md-8 col-sm-6 ">
                         <div>
-                            <div className="row text-right"><h4>{profil.nom} {profil.prenom}, {profil.age}, {profil.statut}.</h4></div>
+                            <div id="mainName" className="row text-right">{profil.nom} {profil.prenom}, {profil.age}, {profil.statut}.</div>
                             <div className="row text-right">{profil.adress}.</div>
                             <div className="row text-right">{profil.email}</div>
                             <div className="row text-right">{profil.phone}</div>

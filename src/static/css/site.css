@@ -1,10 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 .profil-image{
     margin-top: 10px;
     margin-bottom: 10px;
     height: 150px;
 }
 
-.formation{
-    margin-top: 70px;
-    padding: 20px;
+.profil{
+    background-color: #009688;
+    color: white;
+}
+#mainName{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+div[class*="w3"]{
+    padding: 30px;
+    margin-bottom: 70px;
 }

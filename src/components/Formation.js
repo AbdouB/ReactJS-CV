@@ -23,7 +23,7 @@ export default class Formation extends React.Component{
             <div className="formation w3-panel w3-card-4">
                 <h4>Formations: </h4>
                 <div className="row">
-                    <div className="col-md-3 col-sm-6 col-xs-12">
+                    <div className="col-md-3 col-sm-6">
                         <select className="form-control" onChange={this.changeFormation.bind(this)}>
                             <option value="_17">2016/2017</option>
                             <option value="_16">2014/2016</option>
