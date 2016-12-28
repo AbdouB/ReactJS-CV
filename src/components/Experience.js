@@ -36,7 +36,7 @@ export default class Experience extends React.Component{
                             <div>
                                 <h5>-{projet.titre}</h5>
                                  <span><img className="icon" src="img/github-reversed.svg"/></span>
-                                 <a href={"'"+projet.github+"'"}>Source code</a>
+                                 <a href={projet.github}>Source code</a>
                                 <hr />
                             </div>
                         )}
