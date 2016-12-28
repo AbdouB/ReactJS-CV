@@ -18,7 +18,7 @@ export default class Formation extends React.Component{
     
     render(){
         const annee = this.state.anneeFormation;
-        console.log(annee);
+        
         return(
             <div className="formation w3-panel w3-card-4">
                 <h4><span className="glyphicon glyphicon-education" aria-hidden="true"></span>Formations: </h4>
