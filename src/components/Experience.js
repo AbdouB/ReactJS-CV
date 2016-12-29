@@ -31,12 +31,12 @@ export default class Experience extends React.Component{
                         </select>              
                     </div>
                     <div className="col-md-10 col-sm-8 text-center">
-                        <h3>{experiences[id].titre}</h3><br/>
+                        <h3>{experiences[id].titre}</h3>
+                        <p>{experiences[id].duree}</p><br/>
                         {experiences[id].projets.map((projet, i) =>
                             <div>
                                 <h5>-{projet.titre}</h5>
-                                 <span><img className="icon" src="img/github-reversed.svg"/></span>
-                                 <a href={projet.github}>Source code</a>
+                                 <a href={projet.github}><img className="icon" src="img/github-reversed.svg"/>Source code</a>
                                 <hr />
                             </div>
                         )}
